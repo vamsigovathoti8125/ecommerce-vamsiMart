@@ -1,0 +1,6 @@
+node_modules/
+vamsimart.db
+.env
+.env.local
+.DS_Store
+npm-debug.log*

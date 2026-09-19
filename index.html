@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="vamsiMart - thoughtfully chosen things for modern living.">
+  <title>vamsiMart | Find your everyday favorites</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body class="dark-market">
+  <div class="announcement">Free delivery on orders over ₹999 <span>•</span> New drops every Friday</div>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="vamsiMart home"><span class="brand-mark">v</span><span>vamsi<span>Mart</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a href="products.html">Products</a>
+      <a href="categories.html">Categories</a>
+      <a href="#recommended">Deals</a>
+      <a href="#stories">About</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button search-toggle" aria-label="Open search"><span class="icon">⌕</span></button>
+      <a class="icon-button" href="account.html" aria-label="Your account"><span class="icon">♙</span></a>
+      <a class="cart-button" href="cart.html" aria-label="Open shopping bag">Bag <span id="cartCount">0</span></a>
+      <button class="menu-toggle" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero-section audio-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Your world of shopping</p>
+        <h1>Explore more.<br><em>Live brighter.</em></h1>
+        <p class="hero-text">Discover endless choices, better prices, and the products that make everyday life feel more like yours.</p>
+        <a class="primary-button" href="products.html">Shop now <span>↗</span></a>
+        <div class="hero-note"><span class="note-line"></span><span>New season, thoughtfully selected</span></div>
+      </div>
+      <div class="hero-image-wrap">
+        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=90" alt="Modern shopping experience">
+        <div class="image-label">UP TO 50% OFF <span>✦</span></div>
+      </div>
+      <div class="hero-stamp">GOOD<br>FINDS<br><span>✦</span></div>
+    </section>
+
+    <section class="category-strip" id="categories">
+      <div class="section-intro"><p class="eyebrow">Shop by category</p><h2>Everything<br><em>starts here.</em></h2></div>
+      <div class="category-grid">
+        <button class="category-card active" data-category="All"><img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=600&q=80" alt="All vamsiMart categories"><span>All categories</span><small>Everything in one place</small></button>
+        <button class="category-card" data-category="Electronics"><img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=600&q=80" alt="Laptop and electronics"><span>Electronics</span><small>Smart tech, better living</small></button>
+        <button class="category-card" data-category="Fashion"><img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=600&q=80" alt="Fashion clothing rack"><span>Fashion</span><small>Looks for every day</small></button>
+        <button class="category-card" data-category="Beauty"><img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=600&q=80" alt="Beauty products"><span>Beauty</span><small>Rituals and refreshes</small></button>
+        <button class="category-card" data-category="Home"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=600&q=80" alt="Neutral home decor"><span>Home & furniture</span><small>Make room for good</small></button>
+        <button class="category-card" data-category="Grocery"><img src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=600&q=80" alt="Fresh grocery produce"><span>Grocery</span><small>Fresh picks, delivered</small></button>
+        <button class="category-card" data-category="Appliances"><img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=600&q=80" alt="Modern kitchen appliances"><span>Appliances</span><small>Upgrade your everyday</small></button>
+        <button class="category-card" data-category="Sports"><img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=600&q=80" alt="Fitness and sports gear"><span>Sports & fitness</span><small>Move your way</small></button>
+      </div>
+    </section>
+
+    <section class="clothing-section" id="clothing">
+      <div class="clothing-heading"><div><p class="eyebrow">The vamsiMart fashion edit</p><h2>Stylish looks.<br><em>Everyday you.</em></h2></div><a class="clothing-link" href="products.html">View all fashion <span>→</span></a></div>
+      <div class="clothing-categories">
+        <a href="products.html" class="clothing-category clothing-category-dresses"><span>Women<br><b>Dresses</b></span><small>120+ items →</small></a>
+        <a href="products.html" class="clothing-category clothing-category-tops"><span>Tops &<br><b>T-shirts</b></span><small>150+ items →</small></a>
+        <a href="products.html" class="clothing-category clothing-category-denim"><span>Denim<br><b>Wear</b></span><small>80+ items →</small></a>
+        <a href="products.html" class="clothing-category clothing-category-shoes"><span>Shoes &<br><b>Footwear</b></span><small>100+ items →</small></a>
+        <a href="products.html" class="clothing-category clothing-category-bags"><span>Bags &<br><b>Accessories</b></span><small>90+ items →</small></a>
+      </div>
+      <div class="clothing-heading clothing-products-heading"><div><p class="eyebrow">Fresh from the rack</p><h3>New arrivals</h3></div><a class="clothing-link" href="products.html">View all products <span>→</span></a></div>
+      <div class="clothing-products">
+        <a class="clothing-product" href="product.html?id=16"><div class="clothing-product-image"><span class="clothing-badge">New</span><img src="https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=700&q=85" alt="Relaxed cotton overshirt"><span class="clothing-heart">♡</span></div><b>Relaxed Cotton Overshirt</b><strong>₹1,890</strong><small>Fashion · New season</small></a>
+        <a class="clothing-product featured-clothing" href="product.html?id=18"><div class="clothing-product-image"><span class="clothing-badge hot">Hot</span><img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=700&q=85" alt="Soft knit weekend set"><span class="clothing-heart">♡</span></div><b>Soft Knit Weekend Set</b><strong>₹2,290</strong><small>Fashion · Trending now</small><span class="clothing-add">Add to bag ↗</span></a>
+        <a class="clothing-product" href="product.html?id=17"><div class="clothing-product-image"><img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=700&q=85" alt="Everyday leather sneakers"><span class="clothing-heart">♡</span></div><b>Everyday Leather Sneakers</b><strong>₹3,290</strong><small>Fashion · Bestseller</small></a>
+        <a class="clothing-product" href="product.html?id=7"><div class="clothing-product-image"><img src="https://images.unsplash.com/photo-1594223274512-ad4803739b7c?auto=format&fit=crop&w=700&q=85" alt="Canvas market tote"><span class="clothing-heart">♡</span></div><b>Canvas Market Tote</b><strong>₹990</strong><small>Fashion · Everyday essential</small></a>
+      </div>
+      <div class="clothing-sale"><div><span>Limited time offer</span><h3>Up to <b>30% off</b></h3><p>On selected fashion favorites</p><a href="products.html">Grab the deal <span>→</span></a></div><img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?auto=format&fit=crop&w=1100&q=85" alt="Fashion collection on a clothing rack"></div>
+      <div class="clothing-benefits"><div><span>♢</span><b>Premium quality</b><small>Handpicked just for you</small></div><div><span>▣</span><b>Fast delivery</b><small>On-time delivery guaranteed</small></div><div><span>↺</span><b>Easy returns</b><small>7 days return policy</small></div><div><span>♧</span><b>Best prices</b><small>Stylish looks, best prices</small></div></div>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="shop-heading"><div><p class="eyebrow">Featured products</p><h2>Made to<br><em>move you.</em></h2></div><div class="shop-controls"><span id="resultCount">Showing 12 of 12</span><select id="sortSelect" aria-label="Sort products"><option value="featured">Sort: Featured</option><option value="low">Price: Low to high</option><option value="high">Price: High to low</option></select></div></div>
+      <div class="product-grid" id="productGrid"></div>
+      <button class="load-more" id="loadMore">Load more pieces <span>↓</span></button>
+    </section>
+
+    <section class="deal-band" id="recommended">
+      <div class="deal-copy"><p class="eyebrow">Limited-time picks</p><h2>Deals that<br><em>move fast.</em></h2><p>Fresh markdowns, popular essentials and prices that will not wait around.</p><a class="light-button" href="#shop">See all offers <span>↗</span></a></div>
+      <div class="deal-timer"><span>Deal of the hour</span><strong>04 : 28 : 16</strong><small>Extra 10% off with code <b>VAMSI10</b></small></div>
+      <div class="deal-art"><span>UP<br>TO</span><strong>70%</strong><small>OFF</small></div>
+    </section>
+
+    <section class="inner-section trending-section" id="stories">
+      <div class="inner-heading"><div><p class="eyebrow">Picked for your world</p><h2>Trending <em>now.</em></h2></div><a class="text-link" href="#shop">View all <span>↗</span></a></div>
+      <div class="trend-grid"><article><img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=700&q=80" alt="Minimal smartwatch"><div><b>Smart living</b><span>Tech that fits in</span></div></article><article><img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=700&q=80" alt="Skincare bottles"><div><b>Glow season</b><span>Beauty bestsellers</span></div></article><article><img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=700&q=80" alt="Comfortable sofa"><div><b>Easy comfort</b><span>Home refreshes</span></div></article></div>
+    </section>
+
+    <section class="brand-section"><div class="inner-heading"><div><p class="eyebrow">Brands you can trust</p><h2>Good names,<br><em>great finds.</em></h2></div><a class="text-link" href="#shop">Explore brands <span>↗</span></a></div><div class="brand-grid"><div>boAt</div><div>Samsung</div><div>Levi's</div><div>Philips</div><div>Maybelline</div><div>adidas</div></div></section>
+
+    <section class="service-row"><div><span>↺</span><b>Easy returns</b><small>7-day hassle-free returns</small></div><div><span>▣</span><b>Secure payments</b><small>100% protected checkout</small></div><div><span>⌁</span><b>Fast delivery</b><small>Reliable delivery, every time</small></div><div><span>♧</span><b>vamsiCare</b><small>Real support when you need it</small></div></section>
+
+    <section class="feature-banner" id="stories">
+      <div class="feature-image"><img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=1200&q=85" alt="Skincare and wellness products on a shelf"></div>
+      <div class="feature-copy"><p class="eyebrow">The vamsiMart standard</p><h2>Good design.<br><em>Better everyday.</em></h2><p>We look for the details that make a product worth keeping: honest materials, useful forms, and a little bit of joy.</p><a href="#shop" class="text-link">Read our story <span>↗</span></a></div>
+    </section>
+
+    <section class="newsletter"><div><p class="eyebrow">A note in your inbox</p><h2>Good things,<br><em>occasionally.</em></h2></div><form id="newsletterForm"><label for="email">Your email address</label><div class="email-field"><input id="email" type="email" placeholder="you@example.com" required><button type="submit" aria-label="Subscribe">↗</button></div><small id="newsletterMessage">No noise. Just new finds and thoughtful notes.</small></form></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand" href="index.html"><span class="brand-mark">v</span><span>vamsi<span>Mart</span></span></a><p class="footer-credit">Created by <strong>Govathoti Vamsi</strong><br><a href="mailto:vamsigovathoti8125@gmail.com">vamsigovathoti8125@gmail.com</a><br><a href="https://www.linkedin.com/in/vamsigovathoti8125/" target="_blank" rel="noreferrer">Govathoti Vamsi | LinkedIn</a><br><a href="https://github.com/vamsigovathoti8125" target="_blank" rel="noreferrer">vamsigovathoti8125 (Govathoti vamsi) · GitHub</a><br><a href="tel:+918125723070">8125723070</a></p><div class="footer-links"><a href="products.html">Shop</a><a href="categories.html">Categories</a><a href="#stories">About</a><a href="cart.html">Bag</a></div><small>© 2026 vamsiMart</small></footer>
+
+  <div class="search-panel" id="searchPanel"><div class="search-inner"><input id="searchInput" type="search" placeholder="Search the edit..." aria-label="Search products"><button id="closeSearch" aria-label="Close search">×</button></div></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping bag"><div class="drawer-header"><div><p class="eyebrow">Your bag</p><h2>Good choices.</h2></div><button id="closeCart" aria-label="Close shopping bag">×</button></div><div id="cartItems" class="cart-items"><div class="empty-cart"><span>✦</span><p>Your bag is waiting<br>for something lovely.</p><a href="#shop" id="startShopping">Start exploring</a></div></div><div class="cart-footer"><div><span>Subtotal</span><strong id="cartTotal">₹0</strong></div><button class="primary-button checkout-button">Checkout <span>↗</span></button></div></aside><div class="overlay" id="overlay"></div>
+  <div class="quick-view" id="quickView"><button class="quick-close" id="quickClose" aria-label="Close product view">×</button><div id="quickContent"></div></div>
+  <script src="script.js"></script>
+</body>
+</html>

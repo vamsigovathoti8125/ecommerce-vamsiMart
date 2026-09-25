@@ -55,6 +55,12 @@ http://localhost:4173
 
 Do not open the HTML files directly with `file://`. The account, catalog API, checkout, and order features require the Express server.
 
+## Project demo
+
+Watch the project walkthrough recording:
+
+[Open the vamsiMart project demo video](./media/vamsimart-project-demo.mp4)
+
 ## Main pages
 
 - `/index.html` - homepage
@@ -90,9 +96,9 @@ script.js        Frontend behavior and API integration
 styles.css       Responsive styling
 server.js        Express API and SQLite database
 favicon.png      vamsiMart favicon
+media/           Project demo video and other media
 ```
 
 ## Notes
 
 The checkout payment flow is a demo integration. It does not process real payments or store real card details. Connect a production payment provider such as Razorpay or Stripe before deploying for real transactions.
-

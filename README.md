@@ -61,6 +61,28 @@ Watch the project walkthrough recording:
 
 [Open the vamsiMart project demo video](./media/vamsimart-project-demo.mp4)
 
+## Screenshots
+
+### Homepage
+
+![vamsiMart homepage](./media/screenshots/homepage.png)
+
+### New arrivals
+
+![New arrivals product grid](./media/screenshots/new-arrivals.png)
+
+### Checkout address
+
+![Checkout delivery address](./media/screenshots/checkout-address.png)
+
+### Checkout payment
+
+![Checkout payment method](./media/screenshots/checkout-payment.png)
+
+### Order confirmation
+
+![Order confirmation](./media/screenshots/order-confirmation.png)
+
 ## Main pages
 
 - `/index.html` - homepage
@@ -97,6 +119,7 @@ styles.css       Responsive styling
 server.js        Express API and SQLite database
 favicon.png      vamsiMart favicon
 media/           Project demo video and other media
+  screenshots/   Product and checkout screenshots
 ```
 
 ## Notes
